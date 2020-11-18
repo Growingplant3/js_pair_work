@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+  <title>おはよう！</title>
+</head>
+<body>
+  <span id="spanText">ここにjsでdom操作を行って文字列を出力します。</span>
+  <p>お問い合わせ内容<p>
+  <form action="#" method="#">
+  <table border="1px">
+    <tr id="first_tr">
+      <th>お問い合わせの種類必須</th>
+      <td>
+      <input type="radio" name="select">商品や販売店についてのお問い合わせ
+      <input type="radio" name="select">その他のお問い合わせ
+      </td>
+    </tr>
+    <tr id="second_tr">
+      <th>件名</th>
+      <td><input type="text" id="kenmei_text"></td>
+    </tr>
+    <tr id="third_tr">
+      <th>お問い合わせ内容</th>
+      <td><textarea></textarea></td>
+    </tr>
+  </table>
+  <div class="submit_wrapper">
+    <input type="submit">
+  </div>
+  </form>
+</body>
+</html>
